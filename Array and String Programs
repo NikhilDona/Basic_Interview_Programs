@@ -1,0 +1,10 @@
+//Reverse words in a given string
+
+let x = "i love programming very much"
+let res = ''
+let arr = x.split(' ')
+let arr1 = []
+for(let i = arr.length-1;i>=0;i--){
+    arr1.push(arr[i])
+}
+console.log(arr1.toString().replace(/,/g," "))
